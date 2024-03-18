@@ -4,9 +4,9 @@ public class Course {
     public static final int MAJOR_CREDIT = 3;
     public static final int GENERAL_CREDIT = 2;
 
-    private final String subject; // 과목
-    private final int credit; // 학점
-    private final String grade; // 성적
+    private final String subject; //과목
+    private final int credit; //학점
+    private final String grade; //성적
 
     public Course(String subject, int credit, String grade) {
         this.subject = subject;
