@@ -9,6 +9,9 @@ import org.example.hr.ui.console.ConsoleInputUI;
 import org.example.hr.ui.console.ConsoleOutputUI;
 
 public class HRManagementSystemMain {
+
+    // 객체지향 패러다임 - 인사 관리 시스템
+
     private static final InMemoryEmployRepository repository = new InMemoryEmployRepository();
     private static final EmployeeCommandService commandService = new EmployeeCommandService(repository);
     private static final EmployeeQueryService queryService = new EmployeeQueryService(repository);

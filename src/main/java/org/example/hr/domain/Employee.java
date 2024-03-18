@@ -1,6 +1,9 @@
 package org.example.hr.domain;
 
 public class Employee {
+
+    // 직원
+
     private String no;
     private String name;
     private String socialSecurityNumber;
