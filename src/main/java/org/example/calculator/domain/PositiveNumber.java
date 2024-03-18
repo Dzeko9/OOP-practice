@@ -1,6 +1,8 @@
 package org.example.calculator.domain;
 
 public class PositiveNumber {
+
+    // 객체지향 패러다임을 통한 리팩토링
     private static final String ZERO_OR_NEGATIVE_NUMBER_EXCEPTION_MESSAGE = "0 또는 음수를 전달할 수 없습니다.";
 
     private final int value;

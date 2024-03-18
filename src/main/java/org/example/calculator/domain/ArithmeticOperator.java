@@ -3,6 +3,7 @@ package org.example.calculator.domain;
 import java.util.Arrays;
 
 public enum ArithmeticOperator {
+    
     ADDITION("+") {
         @Override
         public int calculate(final int operand1, final int operand2) {
