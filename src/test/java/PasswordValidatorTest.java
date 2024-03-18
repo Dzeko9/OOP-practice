@@ -14,7 +14,7 @@ public class PasswordValidatorTest {
      * 경계조건에 대해 테스트 코드를 작성해야 한다.
      */
 
-    @DisplayName("비밀번호가 최소 8자 이상, 12자 이하면 예외가 발생하지 않는다.")
+    @DisplayName("비밀번호가 최소 8자 이상 , 12자 이하면 예외가 발생하지 않는다.")
     @Test
     void validatePasswordTest() {
         // given
